@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>PDF Marking</title>
+		<link rel="stylesheet" href="">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://rawgit.com/kangax/fabric.js/master/dist/fabric.js"></script>
+		<script src="https://seikichi.github.io/tmp/PDFJS.0.8.715/pdf.min.js"></script>
+		<script src="./js/script.js"></script>
+	</head>
+	<body>
+		<button onclick="addSignature()">Add Signature</button>
+		<button onclick="removeAllSignature()">Remove All Signature</button>
+		<button onclick="getSignatures()">Sign</button>
+		<canvas id="pdfcanvas" style="border:1px solid black" width="700"></canvas>
+	</body>
+</html>
